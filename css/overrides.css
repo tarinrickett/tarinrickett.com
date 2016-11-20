@@ -184,6 +184,17 @@ div .skills {
 }
 
 /**********/
+/* SLIDES */
+/**********/
+#leftArrow {
+  padding-top: 100%;
+}
+
+#rightArrow {
+  padding-top: 100%;
+}
+
+/**********/
 /* MISC */
 /**********/
 
