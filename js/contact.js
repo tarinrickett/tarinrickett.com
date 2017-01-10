@@ -21,7 +21,9 @@ $('#contact').submit(function(event){
 	xmlhttp.onreadystatechange = function() {
 		if (this.readyState == 4 && this.status == 200 && validate()) {
 			formSuccess();
-		}
+		} else {
+            formFailure();
+        }
 	};
 
     //open and send POST request
