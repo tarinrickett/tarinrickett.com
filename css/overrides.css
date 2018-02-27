@@ -101,6 +101,10 @@ h1 {
 /* LINKS */
 /***********/
 
+a {
+  color: #65A859;
+}
+
 a:hover {
   color: #65A859;
 }
@@ -280,4 +284,3 @@ code {
   color: #65A859;
   text-decoration: underline;
 }
-

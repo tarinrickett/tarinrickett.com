@@ -12,7 +12,7 @@ $(document).ready(function() {
 		'images/tarinrickett.png'
 	];
 	var text = [
-		'<h2>UI Engineer Intern</h2><h3>LinkedIn</h3><h4>Sunnyvale, CA &nbsp; | &nbsp; June 2017 - <em>Present</em></h4><p>Excited to announce my UI Engineering internship with LinkedIn for Summer 2017!</p><p><a class="btn btn-default" href="https://studentcareers.linkedin.com/internships" role="button">Learn more »</a></p>',
+		'<h2>UI Engineer Intern</h2><h3>LinkedIn</h3><h4>Sunnyvale, CA &nbsp; | &nbsp; June 2017 - Sept 2017</h4><p>Developed for the onboarding re-design project alongside Goals & Onboarding team. The fully implemented widget is now live and impacting tens of thousands of new users daily. Returning to full-time role in Nov 2018.</p><p><a class="btn btn-default" href="https://studentcareers.linkedin.com/internships" role="button">Learn more »</a> <a class="btn btn-default" href="http://www.linkedin.com/" role="button">View site »</a></p>',
 		'<h2>Web Development Intern</h2><h3>L.L.Bean</h3><h4>Freeport, ME &nbsp; | &nbsp; May 2016 - Aug 2016</h4><p>Executed site improvement efforts while learning the responsibilities required for the support of a large-scale corporate retail site. Projects included improving source control organization, advancing files to current code and documentation standards, and developer work on the reviews enhancement project.</p><p><a class="btn btn-default" href="llb.html" role="button">Learn more »</a> <a class="btn btn-default" href="http://www.llbean.com/" role="button">View site »</a></p>',
         '<h2>Web Development Intern</h2><h3>Aramark Dining Service</h3><h4>Rochester, NY &nbsp; | &nbsp; Sept 2015 - Dec 2016</h4><p>Responsible for designing, updating, and managing a new University of Rochester Wordpress site for the Dining Services department. Also aided in the promotion and marketing of the department, including social media outreach.</p><p><a class="btn btn-default" href="http://www.rochester.edu/dining/" role="button">View site »</a></p>',
         '<h2>Freelance Web Developer</h2><h3>The Carbajal Law Firm, P.C.</h3><h4>New York, NY &nbsp; | &nbsp; Feb 2016 - Aug 2016</h4><p>Managed, updated, and strengthened Wordpress site and blog for this international business law office, focusing on the improvement of user experience and increase in traffic generation.</p><p><a class="btn btn-default" href="http://www.carbajalesq.com" role="button">View site »</a></p>',
@@ -48,5 +48,5 @@ $(document).ready(function() {
 		getText.html(text[index]);
 		//getSlide.css("-webkit-transition: opacity 1s cubic-bezier(0.4, 0, 0.2, 1);");
 	}
-	
+
 });
