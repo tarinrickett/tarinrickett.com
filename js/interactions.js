@@ -20,24 +20,25 @@ $(document).ready(function() {
   /////////////////
   let expIndex = 0;
   const experiences = [
-    `<h2>Stage du développment du web</h2>
+    `<h2>UI Engineer Intern</h2>
     <h3>LinkedIn</h3>
-    <h4>Californie, É.U. &nbsp; | &nbsp; Juin 2017 - Sept 2017</h4>
-    <p>J’ai développé un nouveau widget de procès d'inscription. Le widget
-      affecte des dizaines de milliers de nouveaux utilisateurs chaque jour
-      En retournant au poste à temps complet en novembre 2018</p>`,
-    `<h2>Stage du développment du web</h2>
+    <h4>Sunnyvale, CA &nbsp; | &nbsp; June 2017 - Sept 2017</h4>
+    <p>Developed for the onboarding re-design project alongside Goals &amp; Onboarding team. The
+    fully implemented widget is now live and impacting tens of thousands of new users daily.
+    Returning to full-time role in Nov 2018</p>`,
+    `<h2>Web Development Intern</h2>
 		<h3>L.L.Bean</h3>
-		<h4>Maine, É.U. &nbsp; | &nbsp; Mai 2016 - Aout 2016</h4>
-		<p>J’étais chargée de la réalisation des projets d’amélioration du site qui
-    comprenaient de la mise à jour de code et de documentation ainsi que du
-    travail de développeur</p>`,
+		<h4>Freeport, ME &nbsp; | &nbsp; May 2016 - Aug 2016</h4>
+		<p>Executed site improvement efforts while learning the responsibilities required for the support
+		of a large-scale corporate retail site. Projects included improving source control organization,
+		advancing files to current code and documentation standards, and developer work on the reviews
+		enhancement project</p>`,
   ];
   const expImages = [
-    "url('../images/in.jpg')",
-    "url('../images/llb.jpg')",
+    "url('images/in.jpg')",
+    "url('images/llb.jpg')",
   ];
-  $('body').on('click', '#exp-prochain', function(){
+  $('body').on('click', '#exp-next', function(){
     const content = $('#exp-content');
     expIndex++;
 		if (expIndex >= experiences.length) {
@@ -46,7 +47,7 @@ $(document).ready(function() {
 		content.html(experiences[expIndex]);
 		$('#experience').css('background-image', expImages[expIndex]);
   });
-  $('body').on('click', '#exp-precedant', function(){
+  $('body').on('click', '#exp-prev', function(){
     const content = $('#exp-content');
     expIndex--;
 		if (expIndex <= -1) {
@@ -61,26 +62,25 @@ $(document).ready(function() {
   /////////////////
   let expiiIndex = 0;
   const experiencesii = [
-    `<h2>Assistante pédagogique</h2>
-    <h3>l'Université de Rochester</h3>
-    <h4>New York, É.U. &nbsp; | &nbsp; Sept 2015 - Mai 2018</h4>
-    <p>J’introduce des étudiants à la programmation dans une variété de cours.
-      Cheffe de TD deux fois par semaine, je corrige les devoirs,
-      fonctionne comme une cheffe des groupes d'étudiants à leurs projets
-      et, surtout, soutiens des étudiants pendant le semestre</p>`,
-    `<h2>Stagiaire pédagogique</h2>
+    `<h2>Teaching Assistant</h2>
+    <h3>University of Rochester</h3>
+    <h4>Rochester, NY &nbsp; | &nbsp; Sept 2015 - May 2018</h4>
+    <p>Introduce students to programming in a variety of courses.
+      Led and facilitated twice-weekly labs, corrected homework and tests,
+      guided student groups through semester-long projects, and, above all,
+      provided support & resources throughout the semester.</p>`,
+    `<h2>Teaching Internship</h2>
 		<h3>Lycée St. Stanislas</h3>
-		<h4>Nantes, France &nbsp; | &nbsp; Janv 2017 - Mai 2017</h4>
-		<p>L’aide dans les cours d'anglais aux niveaux de compétence diverses,
-    j’ai crée et présenté des préparations de cours uniques en intégrant
-    l'échange culturel dans le matériel. J’ai aussi suivi un cours complémentaire
-    sur l’introduction à la théorie de l'enseignement français</p>`,
+		<h4>Nantes, France &nbsp; | &nbsp; Jan 2017 - May 2017</h4>
+		<p>Assisted in high school English classes of varying proficiency, including BAC preparation.
+      Created and presented unique lesson plans, integrating cultural exchange into traditional course material.
+      Simultaneously enrolled in a complimentary course on an introduction to French teaching theory</p>`,
   ];
   const expiiImages = [
-    "url('../images/rr.jpg')",
-    "url('../images/ouais.jpg')",
+    "url('images/rr.jpg')",
+    "url('images/ouais.jpg')",
   ];
-  $('body').on('click', '#expii-prochain', function(){
+  $('body').on('click', '#expii-next', function(){
     const content = $('#expii-content');
     expiiIndex++;
 		if (expiiIndex >= experiencesii.length) {
@@ -89,7 +89,7 @@ $(document).ready(function() {
 		content.html(experiencesii[expiiIndex]);
 		$('#experienceii').css('background-image', expiiImages[expiiIndex]);
   });
-  $('body').on('click', '#expii-precedant', function(){
+  $('body').on('click', '#expii-prev', function(){
     const content = $('#expii-content');
     expiiIndex--;
 		if (expiiIndex <= -1) {
@@ -104,26 +104,29 @@ $(document).ready(function() {
   //////////////
   let eduIndex = 0;
   const education = [
-    `<h2>l'Université de Rochester</h2>
-    <h3>Rochester, NY &nbsp; | &nbsp; Diplômée en Mai 2018</h3>
-    <h4>Spécialités: l’informatique et les sciences cognitives</h4>
+    `<h2>University of Rochester</h2>
+    <h3>Rochester, NY &nbsp; | &nbsp; Grad May 2018</h3>
+    <h4>B.A. Computer Science</h4>
+    <h4>B.A. Brain and Cognitive Sciences</h4>
     <ul>
-      <li>Matières secondaires: psychologie, français</li>
-      <li>3.9/4.0 moyenne générale</li>
+      <li>Minors: Psychology, French</li>
+      <li>Dean's List all semesters</li>
+      <li>George Eastman Young Leaders Scholarship recipient</li>
     </ul>`,
-    `<h2>l'Université de Nantes</h2>
-    <h3>Nantes, France &nbsp; | &nbsp; Janv - Mai 2017</h3>
+    `<h2>Université de Nantes</h2>
+    <h3>Nantes, France &nbsp; | &nbsp; Spring 2017</h3>
+    <h4>IES French Language Immersion Program</h4>
     <ul>
-      <li>J’ai étudié à l'étranger avec l’IES Nantes: l’immersion de la langue française et les études de la culture</li>
-      <li>J’ai suivi des cours universitaires tout en m'immergeant dans
-      la culture et la langue de l'ouest de la France</li>
+      <li>Immersive study abroad for the 2017 spring semester</li>
+      <li>Took university courses while immersing myself in the culture and language of western
+      France</li>
     </ul>`,
   ];
   const eduImages = [
-    "url('../images/rr.jpg')",
-    "url('../images/ouais.jpg')",
+    "url('images/rr.jpg')",
+    "url('images/ouais.jpg')",
   ];
-  $('body').on('click', '#edu-prochain', function(){
+  $('body').on('click', '#edu-next', function(){
     const content = $('#edu-content');
     eduIndex++;
 		if (eduIndex >= education.length) {
@@ -132,7 +135,7 @@ $(document).ready(function() {
 		content.html(education[eduIndex]);
 		$('#education').css('background-image', eduImages[eduIndex]);
   });
-  $('body').on('click', '#edu-precedant', function(){
+  $('body').on('click', '#edu-prev', function(){
     const content = $('#edu-content');
     eduIndex--;
 		if (eduIndex <= -1) {
