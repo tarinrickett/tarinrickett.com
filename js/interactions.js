@@ -75,10 +75,18 @@ $(document).ready(function() {
 		<p>Assisted in high school English classes of varying proficiency, including BAC preparation.
       Created and presented unique lesson plans, integrating cultural exchange into traditional course material.
       Simultaneously enrolled in a complimentary course on an introduction to French teaching theory</p>`,
+    `<h2>Student Ambassador</h2>
+		<h3>LinkedIn</h3>
+		<h4>Rochester, NY &nbsp; | &nbsp; Sept 2017 - May 2018</h4>
+		<p>Drive students to take full advantage of LinkedIn and its multitude of
+      features so as to boost their careers and ultimately connect them with
+      their dream jobs. Organize, lead, and facilitate a variety of presentations
+      and workshops throughout the campus community.</p>`,
   ];
   const expiiImages = [
     "url('images/rr.jpg')",
     "url('images/ouais.jpg')",
+    "url('images/inii.jpg')"
   ];
   $('body').on('click', '#expii-next', function(){
     const content = $('#expii-content');

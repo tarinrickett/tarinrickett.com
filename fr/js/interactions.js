@@ -30,8 +30,8 @@ $(document).ready(function() {
 		<h3>L.L.Bean</h3>
 		<h4>Maine, É.U. &nbsp; | &nbsp; Mai 2016 - Aout 2016</h4>
 		<p>J’étais chargée de la réalisation des projets d’amélioration du site qui
-    comprenaient de la mise à jour de code et de documentation ainsi que du
-    travail de développeur</p>`,
+      comprenaient de la mise à jour de code et de documentation ainsi que du
+      travail de développeur</p>`,
   ];
   const expImages = [
     "url('../images/in.jpg')",
@@ -75,10 +75,18 @@ $(document).ready(function() {
     j’ai crée et présenté des préparations de cours uniques en intégrant
     l'échange culturel dans le matériel. J’ai aussi suivi un cours complémentaire
     sur l’introduction à la théorie de l'enseignement français</p>`,
+    `<h2>Ambassadrice</h2>
+		<h3>LinkedIn</h3>
+		<h4>New York, É.U. &nbsp; | &nbsp; Sept 2017 - Mai 2018</h4>
+		<p>J'organise et dirige une variété d'ateliers et présentations dans
+    l'intention d'encourager des étudiants à profiter de LinkedIn, en leur
+    donnant des outils pour qu'ils puissent trouver et se connecter à leur
+    métier idéal</p>`
   ];
   const expiiImages = [
     "url('../images/rr.jpg')",
     "url('../images/ouais.jpg')",
+    "url('../images/inii.jpg')",
   ];
   $('body').on('click', '#expii-prochain', function(){
     const content = $('#expii-content');
