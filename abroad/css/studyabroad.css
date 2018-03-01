@@ -1,0 +1,109 @@
+#follow {
+  background-color: #87ADC4;
+}
+#follow a {
+  color: #fff;
+  font-weight: 600;
+}
+
+.jumbotron {
+	background-image: url('../images/nantes.png');
+
+}
+
+.jumbotron p {
+  font-size: 20px;
+  font-weight: normal;
+}
+
+.strikethrough {
+	text-decoration: line-through;
+}
+
+.plus {
+	text-align: right;
+	padding-right: 2em;
+}
+.minus {
+	text-align: right;
+	padding-right: 2em;
+}
+
+.tag-body {
+	padding-left: 2em;
+}
+
+.slideshow {
+    position: relative;
+}
+.caption {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    padding: 10px;
+    margin: 5px;
+	  border: 1px solid #FFF;
+    color: #fff;
+    background-color: #333;
+}
+
+table {
+	width: 40em;
+}
+
+.centered {
+	text-align: center;
+}
+
+.panel {
+	margin-bottom: 0em;
+}
+
+.panel-body {
+	border: 1px solid #ddd;
+	margin-bottom: 5em;
+}
+
+#button{
+	width: 1.28em;
+}
+
+#hit-counter {
+	color: #fff;
+}
+
+/*UNDO GREEN COLOR*/
+h1 {
+  color: #87ADC4;
+}
+.navbar-inverse {
+  background-color: #fff;
+  border-color: #87ADC4;
+}
+.navbar-inverse .navbar-nav>li>a:hover {
+    color: #87ADC4;
+}
+.navbar-inverse .navbar-brand {
+    color: #87ADC4;
+}
+.navbar-inverse .navbar-nav>li>a:hover {
+  background-color: #87ADC4;
+  color: #fff;
+}
+a:hover {
+  color: #87ADC4;
+}
+.not-a-link {
+	color: #87ADC4;
+}
+.not-a-link:focus, .not-a-link:hover {
+  color: #87ADC4;
+  text-decoration: none;
+}
+.not-a-link-icon {
+  color: #87ADC4;
+}
+footer p {
+  color: #B8D2E1;
+}
+
