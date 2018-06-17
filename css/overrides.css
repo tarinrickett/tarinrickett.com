@@ -1,3 +1,8 @@
+body {
+  max-height: 100%;
+  overflow: hidden;
+}
+
 .container {
   left: 0;
   top: 40%;
@@ -82,17 +87,21 @@ a:hover {
   padding: .5em;
 }
 
-.nav-link {
+.nav-link, .dropdown-item {
   color: #343a40;
   text-decoration: none;
 }
-.nav-link:hover {
+.nav-link:hover, .dropdown-item:hover {
   color: #b6b6b6;
   text-decoration: none;
 }
-.nav-link:focus {
+.nav-link:focus, .dropdown-item:focus {
   color: #343a40;
   text-decoration: none;
+}
+
+.dropdown-menu {
+  background-color: #f7f7f7;
 }
 
 #brand-flag, #sm-brand-flag {
