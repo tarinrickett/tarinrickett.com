@@ -1,7 +1,7 @@
 .container {
   left: 0;
   top: 40%;
-  width: 100%;
+  width: 100vw;
 }
 .container h1 {
   padding-top: .5em;
@@ -11,6 +11,16 @@
   letter-spacing: 5px;
   font-family: 'Bungee Inline', cursive;
   font-weight: bold;
+  overflow: scroll;
+}
+
+h1 {
+  font-size: 1.5em;
+}
+@media (min-width: 768px) {
+  h1 {
+    font-size: 2.5rem;
+  }
 }
 
 p, li, h2, h3, h4 {
@@ -38,6 +48,7 @@ a:hover {
   border-radius: .25rem;
   padding: .5em 2em;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  max-height: 70vh;
 }
 .content h1 {
   color: #343a40;
@@ -52,8 +63,14 @@ a:hover {
   margin-top: .5em;
   margin-left: 0;
 }
-#my-nav:hover {
+#my-nav:hover, #my-sm-nav:hover {
   opacity: 1;
+}
+#my-sm-nav {
+  background-color: rgba(247, 247, 247, 0.9);
+  margin-top: .5em;
+  margin-left: 0;
+  width: 100vw;
 }
 
 .navbar-nav {
@@ -74,12 +91,26 @@ a:hover {
   text-decoration: none;
 }
 
-#brand-flag {
+#brand-flag, #sm-brand-flag {
   font-family: 'Bungee Shade', cursive;
   background-color: #f7f7f7;
   font-size: 2em;
   border-radius: 0;
   padding: .35em .5em;
+}
+#sm-brand-flag {
+  background-color: transparent;
+  border: none;
+}
+
+#sm-toggle {
+  margin-top: .5em;
+  margin-right: .5em;
+  border: none;
+}
+
+.mr-auto {
+  background-color: transparent;
 }
 
 #navbarToggleExternalContent {

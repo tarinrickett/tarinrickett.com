@@ -21,7 +21,7 @@
 
 <body>
 
-	<nav>
+	<nav class="d-none d-sm-block">
 		<div id="my-nav" class="row fixed-top">
 	    <button id="brand-flag" class="navbar-toggler"
 				type="button" data-toggle="collapse"
@@ -48,14 +48,41 @@
   </nav>
 
 
+	<div class="d-block d-sm-none container">
+		<div id="my-sm-nav" class="row fixed-top navbar navbar-expand-lg navbar-light bg-light">
+			<nav>
+				<button id="sm-brand-flag" class="navbar-toggler navbar-brand">T</button>
+			  <button id="sm-toggle" class="navbar-toggler collapsed float-right" type="button" data-toggle="collapse"
+					data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+					aria-expanded="false" aria-label="Toggle navigation">
+			    <span class="navbar-toggler-icon"></span>
+			  </button>
+
+			  <div class="navbar-collapse collapse" id="navbarSupportedContent">
+			    <ul class="navbar-nav mr-auto">
+						<li class="nav-item">
+							<a id="home-nav" class="nav-link selected" href="#home">home</a>
+						</li>
+						<li class="nav-item">
+							<a id="exp-nav" class="nav-link" href="#experienceii">experience</a>
+						</li>
+						<li class="nav-item">
+							<a id="edu-nav" class="nav-link" href="#education">education</a>
+						</li>
+			    </ul>
+			  </div>
+			</nav>
+		</div>
+  </div>
+
 
 	<section class="panel" id="home">
 		<div class="container">
 			<div class="row">
-				<div class="col"></div>
-	      <div class="col-6">
+				<div class="col-md"></div>
+	      <div class="col-md-6 col-sm-12">
 	  			<h1>Tarin Rickett</h1>
-	  			<p>Student | Educator | Programmer | People-Person</br>
+	  			<p class="d-none d-sm-block">Student | Educator | Programmer | People-Person</br>
 						Turning a background in tech into a vehicle for empowerment and education</br></br>
 					</p>
 					<p id="icons">
@@ -79,7 +106,7 @@
 						<h2>Teaching Assistant</h2>
 						<h3>University of Rochester</h3>
 						<h4>Rochester, NY &nbsp; | &nbsp; Sept 2015 - May 2018</h4>
-						<p>Introduce students to programming in a variety of courses.
+						<p class="d-none d-sm-block">Introduce students to programming in a variety of courses.
 							Led and facilitated twice-weekly labs, corrected homework and tests,
 							guided student groups through semester-long projects, and, above all,
 							provided support & resources throughout the semester</p>
@@ -106,7 +133,7 @@
 						<h2>UI Engineer Intern</h2>
 						<h3>LinkedIn</h3>
 						<h4>Sunnyvale, CA &nbsp; | &nbsp; June 2017 - Sept 2017</h4>
-						<p>Developed for the onboarding re-design project alongside Goals &amp; Onboarding team. The
+						<p class="d-none d-sm-block">Developed for the onboarding re-design project alongside Goals &amp; Onboarding team. The
 						fully implemented widget is now live and impacting tens of thousands of new users daily.
 						Returning to full-time role in Nov 2018.</p>
 					</div>
@@ -131,7 +158,7 @@
 						<h3>Rochester, NY &nbsp; | &nbsp; Grad May 2018</h3>
 						<h4>B.A. Computer Science</h4>
 						<h4>B.A. Brain and Cognitive Sciences</h4>
-						<ul>
+						<ul class="d-none d-sm-block">
 							<li>Minors: Psychology, French</li>
 							<li>Dean's List all semesters</li>
 							<li>George Eastman Young Leaders Scholarship recipient</li>
@@ -238,8 +265,8 @@
 	<!-- Core JavaScript placed at the end of the document so the pages load faster -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
-	<script src="js/smooth-scrolling.js"></script>
-  <script src="js/scrollify.js"></script>
+	<!-- <script src="js/smooth-scrolling.js"></script>
+  <script src="js/scrollify.js"></script> -->
 	<script src="js/jquery.visible.js"></script>
   <script src="js/interactions.js"></script>
 
