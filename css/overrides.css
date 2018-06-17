@@ -117,6 +117,17 @@ a:hover {
   top: 63%;
 }
 
+#icons>a {
+  color: #fff;
+  font-size: 1.6em;
+}
+#icons>a:hover {
+  color: #b6b6b6;
+  font-size: 1.6em;
+}
+svg {
+  margin-right: 1em;
+}
 
 /*=============
    experience
