@@ -33,7 +33,7 @@ a:hover {
 }
 
 .shadow {
-  text-shadow: 2px 2px 4px #000000;
+  text-shadow: 4px 7px 0px #1c1c1c;
 }
 
 
@@ -147,7 +147,7 @@ a:hover {
   padding: 0;
   background-color: transparent;
   letter-spacing: normal;
-  font-family: 'Bungee Inline', cursive;
+  font-family: 'Bungee', cursive;
 }
 @media (min-width: 768px) {
   #home h1 {
